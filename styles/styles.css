@@ -26,10 +26,18 @@ section .navigation {
   transform: translateX(-50%);
   z-index: 100;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 0 10px;
 }
 section .navigation img {
   width: 120px;
-  border: 2px solid #fff;
+  border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+section .navigation img:hover {
+  width: 200px;
+  opacity: 1;
 }/*# sourceMappingURL=styles.css.map */
